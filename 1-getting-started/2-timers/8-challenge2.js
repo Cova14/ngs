@@ -8,11 +8,11 @@ let counter = 0
 
 const interval = setInterval(
   () => {
-    console.log('Hello World')
-    counter += 1
+    console.log('Hello World');
+    counter += 1;
     if(counter === 5) {
-      console.log('Done')
-      clearInterval(interval)
+      console.log('Done');
+      clearInterval(interval);
     }
   }, 1000
 );
